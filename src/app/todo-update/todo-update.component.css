@@ -1,0 +1,23 @@
+.dialog{
+  height: fit-content;
+  width: 300px;
+  background-color: rgb(182, 180, 180);
+  box-shadow: 10px 5px 10px gray;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  top:50px;
+
+  }
+
+  :host{
+    /* display:block;*/
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    }
+
+
